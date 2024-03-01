@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home a {
+    position: fixed;
+}
+
+.projectcont h1{
+    position: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .logo {
+    padding: 20px 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container li {
+    display: inline-block;
+    padding: 20px 80px;
+}
+
+.container .navbar li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.aboutcont, .contactcont, .projectcont {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.descripc h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.descrip p {
+    padding: 0px 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.prophoto {
+    display: flex;
+    justify-content: center;
+}
+
+.prophoto img {
+    width: 350px;
+    height: 350px;
+    padding: 30px 10px
+}
+
+.prophoto img:hover {
+    transform:scale(1.1);
+    transition: all .7s;
+}
+
+.gamesdes {
+    padding: 40px 165px;
+    font-size: 32px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.gamesdes hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+
+.gamesdes p {
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home {
+    position: absolute;
+    padding: 40px 50px;
+
+}
+
+.home a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body {
+    background-color:blanchedalmond
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+@media(max-width : 480px) {
+    
+    .container .navbar li a {
+        font-size: 30px;
+        color: red;
+        padding-right: 100px;
+        
+    }
+
+    .container .logo {
+        color: green;
+        padding-left: 50px;
+    }
+
+}
+
