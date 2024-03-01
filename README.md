@@ -1,1 +1,1 @@
-simple web sit 
+simple web site
