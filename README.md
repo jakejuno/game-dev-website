@@ -1,1 +1,1 @@
-simple website
+basic website
