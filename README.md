@@ -1,1 +1,1 @@
-basic website (Html, Css).
+Website (Html, Css, Javascript).
